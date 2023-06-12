@@ -1,0 +1,18 @@
+/*
+Custom Css
+*/
+#footer a { color: #1177BB;}
+#footer ul.footer-link-list li { padding-top: 10px;}
+#footer ul.footer-icons li {
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+}
+#footer ul.footer-icons li:hover {
+    background-color: #cfd6e1;
+    transition: .5s;
+  }
+  #footer ul.footer-icons li:hover i {
+    color: #1177BB;
+    transition: .5s;
+  }
