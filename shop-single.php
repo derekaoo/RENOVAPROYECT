@@ -198,14 +198,14 @@ https://templatemo.com/tm-559-zay-shop
                                     -El medio de pago es digital y en efectivo.<br>
                                     -La cotización se realiza sin compromiso.</p>
                             </details>
+                            <details>
+                                <summary>¿Tengo garantía del trabajo?</summary>
+                                <p>Para tú seguridad se cuenta con garantía de 3 meses por el servicio que se realice.</p>
+                            </details>
                           <br>
                           <h4>Especificaciones:</h4>
                           <hr width="100%">
                           <table>
-                            <tr>
-                                <th>ㅤㅤㅤㅤㅤㅤㅤㅤㅤ</th>
-                                <td></td>
-                            </tr>
                             <tr>
                                 <th>Medidas</th>
                                 <td>1x1</td>
@@ -227,7 +227,7 @@ https://templatemo.com/tm-559-zay-shop
                                 <td>Cemento, barilla y ladrillo</td>
                             </tr>
                             <tr>
-                                <th>Ud de medida</th>
+                                <th>Unidad de medida ㅤㅤㅤ</th>
                                 <td>Metros</td>
                             </tr>
                           </table>
@@ -268,7 +268,7 @@ https://templatemo.com/tm-559-zay-shop
                 <i class="fa fa-star text-warning"></i>
                 <i class="fa fa-star text-warning"></i>
                 <i class="fa fa-star text-warning"></i>
-                <span class="list-inline-item text-dark">4.9 de 5</span>
+                <span class="list-inline-item text-dark"><h4>4.9 de 5</h4></span>
             </h1>
             
     </section>
