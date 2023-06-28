@@ -8,7 +8,7 @@
    $bd = "renova";
 
    //Crear conexion
-   $con = new mysqli($host, $user, $clave, $bd);
+   $conexion = new mysqli($host, $user, $clave, $bd);
 
 
     ?>
