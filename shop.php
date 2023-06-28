@@ -16,8 +16,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
 
-    <link href="card/assets/css/styles.css" rel="stylesheet" />
-    <link href="card/assets/css/estilos.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+    <link href="assets/css/estilos.css" rel="stylesheet" />
 
 </head>
 
@@ -26,16 +26,11 @@
    include_once("menu.php");
    include_once("whatsapp.php");
    include_once("conexion.php");
-   
-
-   
-
-
-
 
 ?>
 <!-- boton flotante del carrito -->
 <a href="#" class="btn-flotante" id="btnCarrito">Carrito <span class="badge bg-success" id="carrito">0</span></a>
+
     <!-- Start Content -->
     <div class="container py-5">
         <div class="row">
@@ -117,7 +112,7 @@ document.getElementById("boton").addEventListener("click", function() {
                     while ($data = mysqli_fetch_assoc($query)) { 
                          // Mostrar los registros en una tabla
                         ?>
-        <div class="col-md-4" category="<?php echo $data['categoria']; ?>">
+        <div class="col-md-4">
                         <div class="card mb-4 product-wap rounded-0">
                             <div class="card rounded-0">
                                 <!-- Product image-->

@@ -1,6 +1,6 @@
 <?php
 
-session_start();
+
 
 if (isset($_SESSION)) {
   session_destroy();
@@ -43,6 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $entrar = "error1";
   }
 }
+
 ?>
 
 
@@ -99,9 +100,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
     </form>
   
-    <br>
     <hr>
-    <br>
+  
     <div class="social-login">
       <button class="icono-boton"><i class="fa-brands fa-facebook fa-2xl"></i></button>
       <button class="icono-boton"><i class="fa-brands fa-google fa-2xl"></i></button>
