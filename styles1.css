@@ -75,17 +75,6 @@ hr {
   position: relative;
 }
 
-/* .icono-placeholder {
-    padding: 0.25em 0.6em;
-    border-radius: 0.3rem;
-    border: 1px solid white;
-    text-align: center;
-    box-shadow: 0 2px 3px rgba(0 0 0 / 0.15);
-    width: 30%;
-    font-family: "Font Awesome 5 Free";
-    font-weight: 100;
-  } */
-
 .icon-usr {
   font-size: 23px;
   position: absolute;
@@ -169,22 +158,6 @@ hr {
   background-color: #fd5100;
   color: white;
 }
-
-/* .facebook-button {
-  -webkit-transition-duration: 0.4s; 
-  transition-duration: 0.4s;
-  width: 45%;
-  margin: auto;
-  display: flex;
-  background-color: #f5f5f5;
-  border-width: 3px;
-  border-color: #fd5100;
-  padding: 10px;
-  border-radius: 35px;
-  cursor: pointer;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-} */
 
 .icono-boton {
   -webkit-transition-duration: 0.4s; 
