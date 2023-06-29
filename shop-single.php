@@ -6,8 +6,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="apple-touch-icon" href="assets/img/logo.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo.png">
 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/templatemo.css">
@@ -41,7 +41,7 @@ https://templatemo.com/tm-559-zay-shop
             <div class="row">
                 <div class="col-lg-5 mt-5">
                     <div class="card mb-3">
-                        <img class="card-img img-fluid" src="assets/img/losas_de_armado_de_acero.jpeg" alt="Card image cap" id="product-detail">
+                        <img class="card-img img-fluid" src="assets/img/losa1.png" alt="Card image cap" id="product-detail">
                     </div>
                     <div class="row">
                         <!--Start Controls-->
@@ -62,17 +62,17 @@ https://templatemo.com/tm-559-zay-shop
                                     <div class="row">
                                         <div class="col-4">
                                             <a href="#">
-                                                <img class="card-img img-fluid" src="assets/img/losas_de_armado_de_acero.jpeg" alt="Product Image 1">
+                                                <img class="card-img img-fluid" src="assets/img/losa1.png" alt="Product Image 1">
                                             </a>
                                         </div>
                                         <div class="col-4">
                                             <a href="#">
-                                                <img class="card-img img-fluid" src="assets/img/losas_de_armado_de_acero.jpeg" alt="Product Image 2">
+                                                <img class="card-img img-fluid" src="assets/img/losa1.png" alt="Product Image 2">
                                             </a>
                                         </div>
                                         <div class="col-4">
                                             <a href="#">
-                                                <img class="card-img img-fluid" src="assets/img/losas_de_armado_de_acero.jpeg" alt="Product Image 3">
+                                                <img class="card-img img-fluid" src="assets/img/losa1.png" alt="Product Image 3">
                                             </a>
                                         </div>
                                     </div>

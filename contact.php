@@ -10,8 +10,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo.png">
 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/templatemo.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Load fonts style after rendering the layout styles -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
@@ -46,7 +45,7 @@ https://templatemo.com/tm-559-zay-shop
             <p>Valle verde 34284 Durango, Dgo.</p>
         </div>
         <div style="width: 50%; height: 15rem; border: 2px solid black; margin: auto; display: flex; border-radius: 25px;">
-            <img src="assets/img/logo.png" class="logo" alt="">
+            <img src="assets/img/logo.png" class="" alt="">
             <p>Agenda una cita</p>
         </div>
     </div>

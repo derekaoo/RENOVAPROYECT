@@ -1,61 +1,45 @@
-/*
+.menu{
+    background-color: #fd5100; position: sticky; top: 0; z-index: 1;
 
-TemplateMo 559 Zay Shop
+  }
+  /* Typography */
+body, ul, li, a, p, label, input, div {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px !important;
+    font-weight: 300 !important;
+  }
+  .h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px !important;
+    font-weight: 200 !important;
+  }
+  .h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px !important;
+    font-weight: 300;
+  }
+  .h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px !important;
+    font-weight: 300 !important;
+  }
+  .h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300 !important;
+  }
+  .h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300 !important;
+  }
 
-https://templatemo.com/tm-559-zay-shop
-
----------------------------------------------
-Table of contents
-------------------------------------------------
-1. Typography
-2. General
-3. Nav
-4. Hero Carousel
-5. Accordion
-6. Shop
-7. Product
-8. Carousel Hero
-9. Carousel Brand
-10. Services
-11. Contact map
-12. Footer
-13. Small devices (landscape phones, 576px and up)
-14. Medium devices (tablets, 768px and up)
-15. Large devices (desktops, 992px and up)
-16. Extra large devices (large desktops, 1200px and up)
---------------------------------------------- */
-
-
-
-
-/* Typography */
-body, ul, li, p, label, input, div {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px !important;
-  font-weight: 300 !important;
-}
-.h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 48px !important;
-  font-weight: 200 !important;
-}
-.h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 30px !important;
-  font-weight: 300;
-}
-.h3 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 22px !important;
-}
-/* General */
+  /* General */
 .logo { font-weight: 500 !important;}
 .text-warning {  color: #ede861 !important;}
 .text-muted { color: #1177BB!important;}
 .text-success { color: #fff !important;}
 .text-light { color: #1177BB !important;}
 .bg-dark { background-color: #d4d3d3 !important;}
-.bg-light { background-color: #e9eef5 !important;}
+.bg-light { background-color: #fcfcfc !important;}
 .bg-black { background-color: #d4d3d3 !important;}
 .bg-success { background-color: #fd5100 !important;}
 .btn-success {
@@ -73,9 +57,8 @@ body, ul, li, p, label, input, div {
 #templatemo_main_nav a { color: #fff;}
 #templatemo_main_nav a:hover { color: #d4d3d3;}
 #templatemo_main_nav .navbar .nav-icon { margin-right: 20px;}
-
 /* Hero Carousel */
-#template-mo-zay-hero-carousel { background: #efefef !important;}
+#template-mo-zay-hero-carousel { background: #d4d3d3 !important;}
 /* Accordion */
 .templatemo-accordion a { color: #1177BB;}
 .templatemo-accordion a:hover { color: #333d4a;}
@@ -106,39 +89,30 @@ body, ul, li, p, label, input, div {
 }
 /* Brand */
 .brand-img {
-  filter: grayscale(100%);
-  opacity: 0.5;
-  transition: .5s;
-}
-.brand-img:hover {
-  filter: grayscale(0%);
-  opacity: 1;
-}
-/* Carousel Hero */
-#template-mo-zay-hero-carousel .carousel-indicators li {
-  margin-top: -50px;
-  background-color: #fd5100;
-}
-#template-mo-zay-hero-carousel .carousel-control-next i,
-#template-mo-zay-hero-carousel .carousel-control-prev i {
-  color: #fd5100 !important;
-  font-size: 2.8em !important;
-}
-/* Carousel Brand */
+    filter: grayscale(100%);
+    opacity: 0.5;
+    transition: .5s;
+  }
+  .brand-img:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+  }
+  /* Carousel Hero */
+  #template-mo-zay-hero-carousel .carousel-indicators li {
+    margin-top: -50px;
+    background-color: #fd5100;
+  }
+  #template-mo-zay-hero-carousel .carousel-control-next i,
+  #template-mo-zay-hero-carousel .carousel-control-prev i {
+    color: #fd5100 !important;
+    font-size: 2.8em !important;
+  }
+  /* Carousel Brand */
 .tempaltemo-carousel .h1 {
-  font-size: .5em !important;
-  color: #000 !important;
-}
-/* Services */
-.services-icon-wap {transition: .3s;}
-.services-icon-wap:hover, .services-icon-wap:hover i {color: #fff;}
-.services-icon-wap:hover {background: #fd5100;}
-/* Contact map */
-.leaflet-control a, .leaflet-control { font-size: 10px !important;}
-.form-control { border: 5px solid #e8e8e8;
-position: center !important;
-}
-/* Footer */
+    font-size: .5em !important;
+    color: #000 !important;
+  }
+  /* Footer */
 #footer a { color: #1177BB;}
 #footer a:hover { color: #fd5100;}
 #footer ul.footer-link-list li { padding-top: 10px;}
@@ -162,39 +136,62 @@ position: center !important;
 */
 /* Small devices (landscape phones, 576px and up)*/
 .product-wap .h3, .product-wap li, .product-wap i, .product-wap p {
-  font-size: 12px !important;
-}
-.product-wap .product-color-dot {
-  width: 6px;
-  height: 6px;
-}
-
-@media (min-width: 576px) {
-  .tempaltemo-carousel .h1 { font-size: 1em !important;}
-}
-
-/*// Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
-  #templatemo_main_nav .navbar-nav {max-width: 450px;}
- }
-
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
-  #templatemo_main_nav .navbar-nav {max-width: 550px;}
-  #template-mo-zay-hero-carousel .carousel-item {min-height: 30rem !important;}
-  .product-wap .h3, .product-wap li, .product-wap i, .product-wap p {font-size: 18px !important;}
-  .product-wap .product-color-dot {
-    width: 12px;
-    height: 12px;
+    font-size: 12px !important;
   }
-}
+  .product-wap .product-color-dot {
+    width: 6px;
+    height: 6px;
+  }
+  
+  @media (min-width: 576px) {
+    .tempaltemo-carousel .h1 { font-size: 1em !important;}
+    .btn-search{
+      width: 50%; margin:auto;
+    }
 
-/* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {}
+  }
+  /*// Medium devices (tablets, 768px and up)*/
+  @media (min-width: 768px) {
+    #templatemo_main_nav .navbar-nav {max-width: 450px;}
+   }
+
+  
+  /* Large devices (desktops, 992px and up)*/
+  @media (min-width: 992px) {
+    #templatemo_main_nav .navbar-nav {max-width: 550px;}
+    #template-mo-zay-hero-carousel .carousel-item {height: 40rem !important;}
+    .product-wap .h3, .product-wap li, .product-wap i, .product-wap p {font-size: 18px !important;}
+    .product-wap .product-color-dot {
+      width: 12px;
+      height: 12px;
+    }
+    .carrito{
+      margin-left: 30%;
+    }
+    .icono{
+      font-size: 1.5rem;
+
+     }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 600px) {
+  .carrito{
+    margin-left: 40%;
+  }
+  .btn-search{
+     margin:auto;
+     width:65%;
+  }
+  .descuento{
+    height: 200px;
+  }
+
+}
 
 .navbar a{
     margin: 1rem;
-  padding: 1rem;
+
 }
 .navbar-nav .dropdown-menu {
   float: none;
@@ -209,3 +206,20 @@ position: center !important;
   .img-behind {
     z-index: -1;
   }
+  .logo{
+    width: 2rem;
+  }
+
+
+.text-muted{
+  font-size: medium;
+}.opciones{
+  margin: auto;
+}
+.opciones:hover{
+  border-bottom: 5px solid #fd5100;
+}
+.opciones:active{
+  border-bottom: 5px solid #fd5100;
+}
+/* SECCION DE LOGIN*/

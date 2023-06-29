@@ -1,11 +1,9 @@
-                    <!-- Start Top Nav -->
-        <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/fontawesome.min.css">
+<!-- Start Top Nav -->
+        <nav class="navbar bg-dark navbar-light" >
             <div class="container text-light">
-                <div class="w-100 d-flex justify-content-between">
-                    <div>
-                        <p class="navbar-sm-brand text-light text-decoration-none">Especializamos la construccion</p>
-                    </div>
-                </div>
+                        <p class="">Especializamos la construccion</p>
             </div>
         </nav>
         <!-- Close Top Nav -->

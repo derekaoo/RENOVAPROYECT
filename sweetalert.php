@@ -106,7 +106,7 @@
         Swal.fire({
   position: 'center',
   icon: 'success',
-  title: 'B I E N V E N I D O al sistema <?php  echo $_SESSION['nombre']?>!',
+  title: 'B I E N V E N I D O al sistema <?php  echo $_SESSION['usuario']?>!',
   showConfirmButton: false,
   timer: 2000
 }).then(function(){
@@ -122,7 +122,7 @@
         Swal.fire({
   position: 'center',
   icon: 'success',
-  title: 'B I E N V E N I D O al sistema <?php  echo $_SESSION['nombre']?>!',
+  title: 'B I E N V E N I D O al sistema <?php  echo $_SESSION['usuario']?>!',
   showConfirmButton: false,
   timer: 2000
 }).then(function(){
